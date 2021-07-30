@@ -88,11 +88,13 @@ button:focus {
 .slider-container .action-buttons .down-button {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  transform: translateX(-100%);
+  transform: translateX(-50%);
 }
 
 .slider-container .action-buttons .up-button {
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
-  transform: translateY(-100%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  transform: translateX(-50%);
 }
